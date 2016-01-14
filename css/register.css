@@ -1,0 +1,25 @@
+.mui-content{
+		margin-top: 10%;
+	}
+.btns{
+	position: absolute;
+	right: 0;
+	top: 1px;
+	width: 100px !important;
+}
+.mui-bar{
+	background-color: #41d2a7 !important;
+}
+.mui-title{
+	color: #fff !important;
+}
+.mui-action-back{
+	color: #fff !important;
+}
+.mui-btn-primary{
+	background-color: #41d2a7;
+	border-color:#41d2a7;
+	height: 45px;
+	line-height: 10px;
+	margin-top: 30px;
+}

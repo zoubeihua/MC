@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+html {
+    font-size : 20px;
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}
+.mui-bar{
+	background-color: #41d2a7 !important;
+}
+.mui-title{
+	color: #fff !important;
+}
+.mui-action-menu{
+	color: #fff;
+}
+.mui-off-canvas-left{
+	color: #fff;
+}
+.title {
+	margin: 35px 15px 10px;
+}
+.title+.content {
+	margin: 10px 15px 35px;
+	color: #bbb;
+	text-indent: 1em;
+	font-size: 14px;
+	line-height: 24px;
+}
+.content{
+	width: 100%;
+	height: 200px;
+	background: url(../images/user_bg.jpg) no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.usera{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #fff;
+}
+.usera img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	display: block;
+}
+.icons{
+	color: yellow;
+	margin-top: 5px;
+}
+.icons span{
+	font-family: "Microsoft YaHei" ;
+	font-size: 18px;
+}
+.mui-table-view{
+	margin-top: 10px;
+}
+.sections{
+  padding-top: 0.2rem;
+  position: relative;
+}
+.sections li{
+	width: 48%;
+	height: 5rem;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.sections li img{
+	width: 100%;
+	height:100%;
+}
+.sections li:nth-child(odd){
+	margin: 0.2rem;
+	
+}
+.sections li:nth-child(even){
+	margin: 0.2rem 0.2rem 0.2rem 0;
+	
+}
+.sections li:nth-child(1){
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+.sections li:nth-child(2){
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+/*.sections li:nth-child(1){
+	-webkit-flex: 1 0 7rem;
+	border: 1px solid #000;
+	height: 3rem;
+	margin: 0.2rem;
+}
+.sections li:nth-child(2){
+	height: 3rem;
+	-webkit-order: 1;
+  flex: 1 0 7rem;
+  border: 1px solid #000;
+  margin: 0.2rem 0.2rem 0 0;
+}
+.sections li:nth-child(3){
+	-webkit-flex: 1 0 7rem;
+	border: 1px solid #000;
+	height: 3rem;
+}
+.sections li:nth-child(4){
+	height: 3rem;
+  order: 1;
+  flex: 1 0 7rem;
+  border: 1px solid #000;
+  }		*/
