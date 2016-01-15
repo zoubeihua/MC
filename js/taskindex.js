@@ -1,4 +1,13 @@
 window.onload =function(){
+	
+	var slider = mui("#slider");
+			slider.slider({
+			  interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+			});
+	var slider = mui("#sliders");
+			slider.slider({
+			  interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+			});
 	var scr = document.getElementById("main"), startY,moveY,endY,index=0;
 	var divs = document.getElementById("main").getElementsByTagName("div");
    	scr.addEventListener("touchstart", touchStart, false);
