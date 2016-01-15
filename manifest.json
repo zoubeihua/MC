@@ -191,5 +191,68 @@
                 }
             }
         }
-    }
+    },
+	"dependencies": {
+		"pages": {
+			"login.html": {
+				"resources": [
+					"css/login.css",
+					"js/mui.min.js",
+					"images/sinaweibo.png",
+					"css/mui.min.css",
+					"css/style.css",
+					"images/weixin.png",
+					"images/qq.png"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"images/list_04.jpg",
+				"images/ttqqbanner_04.png",
+				"images/lianmeng.png",
+				"images/ios8 1242X2208.png",
+				"images/iconfont-tianjia.png",
+				"register.html",
+				"css/taskindex.css",
+				"css/index.css",
+				"images/list_02.jpg",
+				"images/index_sprite_ab4db081.png",
+				"css/register.css",
+				"js/mui.js",
+				"js/feedback-page.js",
+				"mobile/userbinding.html",
+				"js/mui.view.js",
+				"images/web_heart_animation.png",
+				"images/user.png",
+				"js/app.js",
+				"js/service.js",
+				"fonts/mui.ttf",
+				"images/juejin.png",
+				"images/ttqqbanner_03.png",
+				"css/mui.css",
+				"js/taskindex.js",
+				"js/mui.enterfocus.js",
+				"images/list_01.jpg",
+				"images/list_05.jpg",
+				"mobile/taskindex.html",
+				"images/list_06.jpg",
+				"images/user_bg.jpg",
+				"index.html",
+				"images/ttqqbanner_02.png",
+				"images/list_03.jpg",
+				"images/hudong.png",
+				"css/userbinding.css",
+				"js/mui.locker.js",
+				"images/ttqqbanner_05.png",
+				"images/zixun.png",
+				"css/feedback-page.css",
+				"js/feedback.js",
+				"images/user-photo.png",
+				"js/index.js"
+			]
+		}
+	}
 }
