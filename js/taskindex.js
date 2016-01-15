@@ -13,8 +13,6 @@ window.onload =function(){
    	scr.addEventListener("touchstart", touchStart, false);
 	scr.addEventListener("touchmove", touchMove, false);
  	scr.addEventListener("touchend", touchEnd, false);
-
-
 //点击开始
     	function touchStart(event){
     		event.preventDefault();
@@ -41,7 +39,6 @@ window.onload =function(){
    				index=0;
    				
    			}else{
-
    				scr.style.webkitTransform = "translate3d(0,"+index*100+"%,0)";	
                 
    			}
@@ -52,9 +49,9 @@ window.onload =function(){
    			if(index<divsl){
    				index = divsl
    			}else{
-   				scr.style.webkitTransform = "translate3d(0,"+index*100+"%,0)";
-   				
+   				scr.style.webkitTransform = "translate3d(0,"+index*100+"%,0)";	
    			}
 		}
 	}
+		
 };

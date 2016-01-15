@@ -10,7 +10,7 @@ window.onload = function(){
 	
 	document.getElementById("binding").addEventListener('tap',function(){
 		mui.openWindow({
-	    url:"/ttqq/mobile/userbinding.html",
+	    url:"mobile/userbinding.html",
 	   	show:{
 	   		autoShow:true,
 	   		aniShow:"slide-in-right",
@@ -21,7 +21,7 @@ window.onload = function(){
 	
 	document.getElementById("taskindex").addEventListener('tap',function(){
 		mui.openWindow({
-	    url:"/ttqq/mobile/taskindex.html",
+	    url:"mobile/taskindex.html",
 	   	show:{
 	   		autoShow:true,
 	   		aniShow:"slide-in-right",
