@@ -1,0 +1,51 @@
+body,html{
+	height:100% !important;
+	width: 100% !important;
+	overflow: hidden;
+}
+
+.cavres,.page{
+	width:100% !important;
+	height:100% !important;
+	transition: all 1s;	
+}
+.mui-bar{
+	background-color: #41d2a7 !important;
+}
+.mui-title{
+	color: #fff !important;
+}
+.mui-action-back{
+	color: #fff !important;
+}
+.Imgbox{
+	width:100%;
+	height: 320px;
+	position: relative;
+}
+.Images{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.Images img{
+	width: 100%;
+	height: 320px;
+	border: none;
+	display: block;
+}
+.Imgbox p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	background-color: rgba(255,255,255,.2);
+	color: #fff;
+	margin-bottom: 0;
+}
+
