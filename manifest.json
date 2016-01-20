@@ -3,7 +3,7 @@
     "id": "H5886DA92",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "天天抢钱",/*应用名称，程序桌面图标名称*/
     "version": {
-        "name": "1.0.6",/*应用版本名称*/
+        "name": "1.0.7",/*应用版本名称*/
         "code": "83"
     },
     "description": "",/*应用描述信息*/
@@ -202,7 +202,44 @@
 					"css/mui.min.css",
 					"css/style.css",
 					"images/weixin.png",
-					"images/qq.png"
+					"images/qq.png",
+					"fonts/mui.ttf"
+				],
+				"refer": [
+					"index.html"
+				],
+				"priority": 0
+			},
+			"index.html": {
+				"resources": [
+					"images/user_bg.jpg",
+					"images/user.png",
+					"css/index.css",
+					"images/ttqqbanner_02.png",
+					"images/ttqqbanner_04.png",
+					"images/lianmeng.png",
+					"images/juejin.png",
+					"images/ttqqbanner_03.png",
+					"images/hudong.png",
+					"images/ttqqbanner_05.png",
+					"images/zixun.png",
+					"js/index.js"
+				],
+				"refer": [
+					"mobile/taskindex.html"
+				],
+				"priority": 0
+			},
+			"mobile/taskindex.html": {
+				"resources": [
+					"css/taskindex.css",
+					"images/list_02.jpg",
+					"images/list_04.jpg",
+					"images/list_03.jpg",
+					"js/taskindex.js",
+					"images/list_01.jpg",
+					"images/list_05.jpg",
+					"images/list_06.jpg"
 				],
 				"refer": [],
 				"priority": 0
@@ -210,15 +247,9 @@
 		},
 		"idle": {
 			"resources": [
-				"images/list_04.jpg",
-				"images/ttqqbanner_04.png",
-				"images/lianmeng.png",
 				"images/ios8 1242X2208.png",
 				"images/iconfont-tianjia.png",
 				"register.html",
-				"css/taskindex.css",
-				"css/index.css",
-				"images/list_02.jpg",
 				"images/index_sprite_ab4db081.png",
 				"css/register.css",
 				"js/mui.js",
@@ -226,32 +257,15 @@
 				"mobile/userbinding.html",
 				"js/mui.view.js",
 				"images/web_heart_animation.png",
-				"images/user.png",
 				"js/app.js",
 				"js/service.js",
-				"fonts/mui.ttf",
-				"images/juejin.png",
-				"images/ttqqbanner_03.png",
 				"css/mui.css",
-				"js/taskindex.js",
 				"js/mui.enterfocus.js",
-				"images/list_01.jpg",
-				"images/list_05.jpg",
-				"mobile/taskindex.html",
-				"images/list_06.jpg",
-				"images/user_bg.jpg",
-				"index.html",
-				"images/ttqqbanner_02.png",
-				"images/list_03.jpg",
-				"images/hudong.png",
 				"css/userbinding.css",
 				"js/mui.locker.js",
-				"images/ttqqbanner_05.png",
-				"images/zixun.png",
 				"css/feedback-page.css",
 				"js/feedback.js",
-				"images/user-photo.png",
-				"js/index.js"
+				"images/user-photo.png"
 			]
 		}
 	},
