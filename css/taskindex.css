@@ -76,6 +76,72 @@ body,html{
 	bottom: 0;
 	left: 0;
 }
-.mui-btn-block{
+.mui-btn{
 	margin-bottom: 0;
+	border-radius:0;
+}
+.taskbtn{
+	clear: both;
+	display: none;
+}
+.mui-btn-red,.mui-btn-green{
+	width: 50%;
+	height: 57px;
+	font-size: 18px;
+	float: left;
+}
+.fadeInRight {
+	-webkit-animation:fadeInRightBig 1s both;
+}
+.fadeOutLeft{
+	-webkit-animation:fadeOutLeftBig 1s both;
+}
+.pulse{
+	-webkit-animation:rubberBand 1s both;
+}
+@-webkit-keyframes fadeInRightBig {
+	0% {
+	opacity:0;
+	-webkit-transform:translateX(2000px);
+	transform:translateX(2000px)
+}
+100% {
+	opacity:1;
+	-webkit-transform:translateX(0);
+	transform:translateX(0)
+}
+}
+
+@-webkit-keyframes fadeOutLeftBig {
+	0% {
+	opacity:1;
+}
+100% {
+	opacity:0;
+	-webkit-transform: translateY(2000px);
+}
+}
+
+
+@-webkit-keyframes rubberBand {
+	0% {
+	-webkit-transform:scale(1);
+	transform:scale(1)
+}
+30% {
+	-webkit-transform:scaleX(1.25) scaleY(0.75);
+	transform:scaleX(1.25) scaleY(0.75)
+}
+40% {
+	-webkit-transform:scaleX(0.75) scaleY(1.25);
+	transform:scaleX(0.75) scaleY(1.25)
+}
+60% {
+	-webkit-transform:scaleX(1.15) scaleY(0.85);
+	transform:scaleX(1.15) scaleY(0.85)
+}
+100% {
+	-webkit-transform:scale(1);
+	transform:scale(1)
+}
 }
