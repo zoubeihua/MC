@@ -54,5 +54,66 @@ window.onload =function(){
 			endY = touch.pageY;
 		
 	}
-		
+				
 };
+
+//开始体验事件
+	function btns(){
+		document.getElementById("primary").classList.add("fadeOutLeft");
+		setTimeout(function(){
+			document.getElementById("primary").style.display = "none";
+			document.getElementById("primary").classList.remove("fadeOutLeft");
+		},1000)
+		setTimeout(function(){
+			document.getElementById("taskbtn").style.display = "block";
+		},100)
+		document.getElementById("taskbtn").classList.add("fadeInRight");
+		setTimeout(function(){
+			document.getElementById("taskbtn").classList.remove("fadeInRight");
+		},1000)
+		
+	}
+	
+	function btnss(){
+		document.getElementById("primarys").classList.add("fadeOutLeft");
+		setTimeout(function(){
+			document.getElementById("primarys").style.display = "none";
+			document.getElementById("primarys").classList.remove("fadeOutLeft");
+		},1000)
+		setTimeout(function(){
+			document.getElementById("taskbtns").style.display = "block";
+		},100)
+		document.getElementById("taskbtns").classList.add("fadeInRight");
+		setTimeout(function(){
+			document.getElementById("taskbtns").classList.remove("fadeInRight");
+		},1000)
+	}
+//放弃体验事件
+function give(){
+	document.getElementById("taskbtn").classList.add("fadeOutLeft");
+	setTimeout(function(){
+			document.getElementById("taskbtn").classList.remove("fadeOutLeft");
+		},1000)
+	 setTimeout(function(){
+			document.getElementById("taskbtn").style.display = "none";
+		},100)
+	 	
+	setTimeout(function(){
+			document.getElementById("primary").style.display = "block";
+		},100)
+	document.getElementById("primary").classList.add("fadeInRight");
+}
+function gives(){
+	document.getElementById("taskbtns").classList.add("fadeOutLeft");
+	setTimeout(function(){
+			document.getElementById("taskbtns").classList.remove("fadeOutLeft");
+		},1000)
+	 setTimeout(function(){
+			document.getElementById("taskbtns").style.display = "none";
+		},100)
+	 	
+	setTimeout(function(){
+			document.getElementById("primarys").style.display = "block";
+		},100)
+	document.getElementById("primarys").classList.add("fadeInRight");
+}
