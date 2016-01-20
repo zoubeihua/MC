@@ -22,6 +22,7 @@ window.onload =function(){
 
 //滑动开始
    	function touchMove(event){
+   		event.preventDefault();//修复了滑动描述区域不能翻页bug
    		if(!event.targetTouches.length) return;
    		var touch = event.targetTouches[0];
    		moveY = touch.pageY;	
