@@ -29,4 +29,15 @@ window.onload = function(){
 	   	}
 	});	
 	});
+	
+	document.getElementById("query").addEventListener('tap',function(){
+		mui.openWindow({
+	    url:"mobile/activequery.html",
+	   	show:{
+	   		autoShow:true,
+	   		aniShow:"slide-in-right",
+	   		duration:300,
+	   	}
+	});	
+	});
 }
