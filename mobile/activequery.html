@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../css/activequery.css"/>
+    <script src="../js/activequery.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">活跃度查询</h1>
+	</header>
+	<section class="navmain">
+		<ul class="nav">
+			<li id="listone" onclick="active()">
+				<p><img id="images" src="../images/today.png"/></p>
+					<p><b id="fontcolor">活跃历史</b></p>
+					<p id="fontcolors">158</p>
+			</li>
+			<li id="listtwo" onclick="record()">
+				<p><img id="imagestwo" src="../images/complete.png"/></p>
+				<p><b id="fontcolortwo">兑换记录</b></p>
+				<p id="fontcolorstwo">7733</p>
+			</li>
+			<li id="listhrees" onclick="exchange()">
+				<p><img id="imagesthrees" src="../images/change.png"/></p>
+				<p><b id="fontcolorthrees">马上兑换</b></p>
+				<p id="fontcolorsthrees">0109</p>
+			</li>
+		</ul>
+	</section>
+</body>
+</html>
