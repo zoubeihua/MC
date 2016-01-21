@@ -15,9 +15,15 @@
 }
 p{
 	margin: 0 !important;
+	color: #666;
+}
+h4{
+	font-family: "微软雅黑";
+	color: #333;
+	font-size: 16px;
 }
 .navmain{
-	margin-top: 55px;
+	margin-top: 60px;
 	background-color: #fff;
 	border-bottom: #ddd 1px solid;
 }
@@ -41,4 +47,83 @@ p{
 .cutr{
 	color: #fff;
 	-webkit-transition: all .5s; 
+}
+#active,#record,#exchange{
+	width: 100%;
+	padding: 10px;
+}
+#active ul,#record ul,#exchange ul{
+	background-color: #fff;
+}
+#active ul li,#record ul li{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #eee;
+}
+#exchange ul{
+	margin-bottom: 15px;
+}
+#active ul li span,#record ul li span{
+	float: left;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+}
+#active ul li span img,#record ul li span img{
+	width: 100%;
+	height: 100%;
+}
+#active ul li .describe,#record ul li .describe{
+	float: left;
+	margin-left:10px ;
+}
+.describe p{
+	margin-top: 14px !important;
+}
+#active ul li b,#record ul li b{
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	margin-right: 5px;
+	color: darkred;
+}
+#record,#exchange{
+	display: none;
+}
+.inputs{
+	width: 150px !important;	
+}
+.blue{
+	width:80px !important;
+	margin-right: 15px;
+	height: 30px;
+	margin-top: 4px;
+	line-height: 0.1 !important;
+}
+.fadeInRight {
+	-webkit-animation:fadeInRightBig .8s ease-out both;
+}
+
+@-webkit-keyframes fadeInRightBig {
+	0% {
+	opacity:0;
+	-webkit-transform:translate3d(2000px,0,0);
+	transform:translate3d(2000px,0,0);
+}
+100% {
+	opacity:1;
+	-webkit-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0);
+}
+}
+
+.primarys{
+	background-color: #41d2a7;
+	border: 1px #41d2a7 solid;
+	margin-top: 30px;
+	height: 50px;
+	padding: 0;
+}
+footer{
+	margin-top: 25px;
 }

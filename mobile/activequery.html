@@ -19,10 +19,10 @@
 	</header>
 	<section class="navmain">
 		<ul class="nav">
-			<li id="listone" onclick="active()">
-				<p><img id="images" src="../images/today.png"/></p>
-					<p><b id="fontcolor">活跃历史</b></p>
-					<p id="fontcolors">158</p>
+			<li id="listone" class="cur" onclick="active()">
+				<p><img id="images" src="../images/today_after.png"/></p>
+					<p><b class="cutr" id="fontcolor">活跃历史</b></p>
+					<p class="cutr" id="fontcolors">158</p>
 			</li>
 			<li id="listtwo" onclick="record()">
 				<p><img id="imagestwo" src="../images/complete.png"/></p>
@@ -35,6 +35,124 @@
 				<p id="fontcolorsthrees">0109</p>
 			</li>
 		</ul>
+	</section>
+	<section id="active">
+		<ul>
+			<li>
+				<span><img src="../images/user1.jpeg"/></span>
+				<div class="describe">
+					<h4>签到奖励</h4>
+					<p>2016-01-10 08:25:10</p>
+				</div>
+				<b>+2.1</b>
+			</li>
+			<li>
+				<span><img src="../images/user2.png"/></span>
+				<div class="describe">
+					<h4>我的红包</h4>
+					<p>2016-01-10 09:10:42</p>
+				</div>
+				<b>+5.11</b>
+			</li>
+			<li>
+				<span><img src="../images/user3.png"/></span>
+				<div class="describe">
+					<h4>魔兽世界</h4>
+					<p>2016-01-10 09:10:23</p>
+				</div>
+				<b>+1.21</b>
+			</li>
+			<li>
+				<span><img src="../images/user9.jpg"/></span>
+				<div class="describe">
+					<h4>脱口秀世界</h4>
+					<p>2016-01-10 09:10:17</p>
+				</div>
+				<b>+3.21</b>
+			</li>
+			<li>
+				<span><img src="../images/user8.jpg"/></span>
+				<div class="describe">
+					<h4>我的野蛮女友</h4>
+					<p>2016-01-20 14:56:25</p>
+				</div>
+				<b>+6.4</b>
+			</li>
+		</ul>
+	</section>
+	<section id="record">
+		<ul>
+			<li>
+				<span><img src="../images/user4.png"/></span>
+				<div class="describe">
+					<h4>签到奖励</h4>
+					<p>2016-01-10 08:25:10</p>
+				</div>
+				<b>+2.1</b>
+			</li>
+			<li>
+				<span><img src="../images/user5.png"/></span>
+				<div class="describe">
+					<h4>我的红包</h4>
+					<p>2016-01-10 09:10:42</p>
+				</div>
+				<b>+5.11</b>
+			</li>
+			<li>
+				<span><img src="../images/user6.jpg"/></span>
+				<div class="describe">
+					<h4>魔兽世界</h4>
+					<p>2016-01-10 09:10:23</p>
+				</div>
+				<b>+1.21</b>
+			</li>
+			<li>
+				<span><img src="../images/user7.jpg"/></span>
+				<div class="describe">
+					<h4>脱口秀世界</h4>
+					<p>2016-01-10 09:10:17</p>
+				</div>
+				<b>+3.21</b>
+			</li>
+			<li>
+				<span><img src="../images/user8.jpg"/></span>
+				<div class="describe">
+					<h4>我的野蛮女友</h4>
+					<p>2016-01-20 14:56:25</p>
+				</div>
+				<b>+6.4</b>
+			</li>
+		</ul>
+	</section>
+	<section id="exchange">
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell">微信账户 
+				<span class="mui-badge mui-badge-primary">鄒鄒</span>
+			</li>
+			<li class="mui-table-view-cell">总活跃度 
+				<span class="mui-badge mui-badge-success">5840</span>
+			</li>
+		</ul>
+		<form class="mui-input-group">
+			<div class="mui-input-row">
+				<label>兑换数量</label>
+				<input type="text" class="mui-input-clear" placeholder="请输入兑换数量">
+			</div>
+			<div class="mui-input-row">
+				<label>手机号码</label>
+				<input type="text" class="mui-input-clear" placeholder="请输入手机号码">
+			</div>
+			<div class="mui-input-row">
+				<input type="text" class="inputs" placeholder="请输入验证码">
+				<button type="button" class="mui-btn mui-btn-primary mui-btn-outlined blue">点击获取</button>	
+			</div>
+		</form>
+		<button class="mui-btn mui-btn-block mui-btn-primary primarys">确认兑换</button>
+		<footer>
+			<h4>温馨提示</h4>
+			<p>兑换数量必须为整数</p>
+			<p>列如:总活跃为8.8,可兑换活跃度为8</p>
+		</footer>
 	</section>
 </body>
 </html>
