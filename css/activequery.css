@@ -40,6 +40,9 @@ h4{
 .nav li:nth-child(n+1){
 	border-right: 1px solid #eee;
 }
+.nav li:nth-child(3){
+	border:none ;
+}
 .cur{
 	background-color:#41d2a7;
 	-webkit-transition: all .5s; 
@@ -50,7 +53,7 @@ h4{
 }
 #active,#record,#exchange{
 	width: 100%;
-	padding: 10px;
+	margin-top: 5px;
 }
 #active ul,#record ul,#exchange ul{
 	background-color: #fff;
@@ -99,6 +102,7 @@ h4{
 	height: 30px;
 	margin-top: 4px;
 	line-height: 0.1 !important;
+	padding: 0 !important;
 }
 .fadeInRight {
 	-webkit-animation:fadeInRightBig .8s ease-out both;
@@ -124,6 +128,13 @@ h4{
 	height: 50px;
 	padding: 0;
 }
+.mui-badge-primary{
+	background-color: yellowgreen;
+}
+.mui-badge-success{
+	background-color: red;
+}
 footer{
 	margin-top: 25px;
+	padding: 10px;
 }
