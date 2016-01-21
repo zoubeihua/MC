@@ -17,6 +17,10 @@ function one(){
 	document.getElementById("fontcolorstwo").classList.remove("cutr");
 	document.getElementById("fontcolorthrees").classList.remove("cutr");
 	document.getElementById("fontcolorsthrees").classList.remove("cutr");
+	document.getElementById("active").style.display = "block";
+	document.getElementById("record").style.display = "none";
+	document.getElementById("active").classList.add("fadeInRight");
+		document.getElementById("exchange").style.display = "none";
 	images.src = "../images/today_after.png";
 	imagestwo.src = "../images/complete.png"
 	imagesthrees.src = "../images/change.png"
@@ -35,6 +39,10 @@ function two(){
 	document.getElementById("fontcolors").classList.remove("cutr");
 	document.getElementById("fontcolorthrees").classList.remove("cutr");
 	document.getElementById("fontcolorsthrees").classList.remove("cutr");
+	document.getElementById("active").style.display = "none";
+	document.getElementById("record").classList.add("fadeInRight");
+	document.getElementById("record").style.display = "block";
+	document.getElementById("exchange").style.display = "none";
 }
 
 function threes(){
@@ -50,6 +58,10 @@ function threes(){
 	document.getElementById("fontcolorstwo").classList.remove("cutr");
 	document.getElementById("fontcolor").classList.remove("cutr");
 	document.getElementById("fontcolors").classList.remove("cutr");
+	document.getElementById("exchange").style.display = "block";
+	document.getElementById("exchange").classList.add("fadeInRight");
+	document.getElementById("active").style.display = "none";
+	document.getElementById("record").style.display = "none";
 }
 
 function active(){
