@@ -134,7 +134,7 @@ html {
 	height: 35px;
 	line-height:35px ;
 	position: relative;
-	top: 0;
+	top: -15px;
 }
 marquee{
 	line-height: 40px;
