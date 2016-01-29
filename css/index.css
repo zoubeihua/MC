@@ -138,11 +138,11 @@ html {
 }
 marquee{
 	line-height: 40px;
-	background-color: cornflowerblue;
+	background-color: darksalmon;
 }
 .Notice{
 	height: 35px;
-	background-color: cornflowerblue;
+	background-color: darksalmon;
 }
 /*.sections li:nth-child(1){
 	-webkit-flex: 1 0 7rem;
